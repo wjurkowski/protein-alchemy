@@ -1,0 +1,15 @@
+&basics 
+filetp=1,minres=5,
+stranal=1,dorama=0,dihstat=0,elipsa=0,gridok=0,anal_bs=0,
+num_mol=2
+/
+&geomet
+cmap=1
+cmaptype=1
+cmapmol=2
+cmapcut=12.0
+/
+&inpout
+dihsave=0,pdbsave=0,saveseq=0
+/
+

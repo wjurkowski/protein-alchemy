@@ -1,0 +1,67 @@
+#####################################################
+Do zrobienia:
+
+I Najwazniejsze:
+   vr - opis do outputu
+2. zmienic deklaracje tablic wewnetrznych na allocatable
+1.porownac fikpsik z wersja 8.1.11
+1.finanal: prawdopodobienstwa na ellipsie
+1.nie zapisuja sie wspolrzedne pdb po transformacji 8sa takie same jak wyjsciowe choc rmsd sie zmienilo)
+
+2.MOZLIWY ROZWOJ
+1. course grain na siatce i poza siatka - dodanie dwoch opcji
+2. dla siatek automatyczny dobor ilosci wezlow jedyny paramatr to gestosc wezlow
+3. course grain - unires? jakie modele sa popularne?
+
+FUNKCJA		STAN
+VR		OK
+fasta		OK
+AS from str	OK
+AS from seq	OK
+DIH		OK
+CMAP		-
+VOL		OK
+SS		-
+RMSD		- (zle liczy odleglosc, tworzenie str po nalozeniu)
+RAMA		- (naglowki pliku out)
+BS		
+block		
+DCCa		OK
+
+
+#######################################################
+Aktualne Zmiany:
+
+[pralch-1.12]
+molecular fit andd rms calculation for separate selections of residues 
+[pralch-1.11]
+wybieranie wartosci odstajacych katow dwuciennych
+[pralch-1.10]
+obliczanie statystyk AA w klastrach struktur sdrugorzedowych
+[pralch-1.9]
+wersja beta, wywalona obsluga wyjatkow z readstr - moze powodowac bledy!
+porzadki w blocker.f95 i sanal.f95 i innych
+porzadki w otwieranych plikach
+[pr_alch1.4]
+uruchamianie z opcjami z lini komend
+[pr_alch1.3]
+dodanie nakladania calych bialek
+rmsd liczone dla fitu i bez
+[palch1.1]
+poprawki po czesciowym umodulowieniu
+zmiana nazw plikow 
+pliki tworza sie tam gdzie uruchamiany jest program
+zapisanie osobno SA bez AA
+[8.6.9]
+przeniesienie definicji fragmentow sekwencji (nakladanie bloków struktur) do readalign.f95
+[8.6.8]
+poprawki w superimpose
+[8.6.7]
+duza zmiana w superimpose: nakladanie dowolnych fragmentów bialek: na podstawie zadanych przedziałów reszt, na podstawie wczytanego automatycznie nalozenia sekwencji
+[8.6.6]
+-zmienna next
++numf - numer obrabianego pliku
+
+##################################################
+
+

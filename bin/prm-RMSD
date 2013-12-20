@@ -1,0 +1,12 @@
+&basics 
+filetp=1,minres=5,
+stranal=1,dorama=0,dihstat=0,elipsa=0,gridok=0,anal_bs=0,
+num_mol=2,vear=0
+/
+&geomet
+AAoverlay=0,bbaln=1,overlay=1,fit=0
+/
+&inpout
+pdbsave=0,outpdb=1
+/
+

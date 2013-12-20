@@ -1,0 +1,6 @@
+!#################END OF FIT
+!...calculates rmsd
+	dist=cdist(Y1,Xp,ltab)
+	rmsd=rmsdback(Y1,Xp,ltab)
+	!dist=cdist(Y1,Xp,ltab)	
+	write(*,*)dist,"WWWW",ltab

@@ -1,0 +1,17 @@
+&basics 
+filetp=1,minres=5,
+stranal=0,dorama=0,dihstat=0,elipsa=1,gridok=0,anal_bs=0,
+torsje=1
+/
+&eliptic
+early_vol=0
+stralf=0
+tekrok=1
+estrtype=2
+edihass=1
+fold=1
+/
+&inpout
+pdbsave=1,outpdb=0,ellpdb=1,elldih=0,ellcrd=0
+/
+
